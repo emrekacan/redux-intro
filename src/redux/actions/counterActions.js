@@ -6,7 +6,7 @@ export const increaseCounter = () => ({
 });
 
 export const decreaseCounter = () => ({
-    type: actionTypes.ECREASE_COUNTER,
+    type: actionTypes.DECREASE_COUNTER,
     payload: 1,
 });
 
